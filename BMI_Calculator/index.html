@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <style>
+        * {
+            margin: auto;
+            margin-top: 20px;
+            margin-left: 200px;
+            background-color: rgb(64, 65, 63);
+            color: aliceblue;
+        }
+
+        form {
+            margin: auto;
+        }
+
+        #btn {
+            margin-left: 230px;
+            width: 110px;
+            border-radius: 10px;
+            height: 25px;
+        }
+
+        #results {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BMI Calculator</h1>
+    <form>
+        <p>Height (in cm.)</p>
+        <input type="text" id="height" placeholder="height">
+        <p>weight (in kg.)</p>
+        <input type="text" id="weight" placeholder="weight"> <br>
+        <button id="btn"> Calculate </button>
+        <div id="results"></div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
